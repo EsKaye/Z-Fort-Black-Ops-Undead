@@ -3,51 +3,70 @@
 ## Project Initialization
 - Created initial project structure
 - Set up core documentation
-- Implemented basic Verse scripts for:
-  - GameManager
-  - WaveSystem
-  - PointsSystem
+- Created basic Verse scripts for GameManager, WaveSystem, and PointsSystem
 
 ## Core Systems Implemented
-1. **Game Management**
-   - Wave progression
-   - Player tracking
-   - Game state management
+### Game Management
+- Basic game state management
+- Wave progression system
+- Points and economy system
 
-2. **Wave System**
-   - Wave configuration
-   - Zombie spawning
-   - Difficulty scaling
+### Wave System
+- Wave configuration and progression
+- Zombie spawning mechanics
+- Difficulty scaling
 
-3. **Points System**
-   - Economy management
-   - Purchase system
-   - Point multipliers
+### Points System
+- Points accumulation
+- Economy management
+- Resource tracking
+
+### Exo Movement System
+- Advanced movement mechanics inspired by Black Ops 3
+- Double jump functionality
+- Wall running system
+- Sliding mechanics
+- Boost dash ability
+- Hover capability
+- Movement state management
+- Input handling and integration
 
 ## Next Steps
-1. Implement zombie AI and behavior
-2. Create weapon system
-3. Design and implement perks
-4. Set up building system
-5. Create UI elements
+- Implement zombie AI
+- Create weapon system
+- Design perk system
+- Set up building system
+- Create UI elements
+- Implement wall detection and collision
+- Add movement animations and effects
+- Create movement tutorial system
 
 ## Technical Decisions
 - Using Verse for game logic
-- Implementing object pooling for performance
-- Using event-driven architecture
+- Object pooling for performance
+- Event-driven architecture
 - Modular system design
+- State-based movement system
+- Configurable movement parameters
 
 ## Challenges & Solutions
 - Directory structure creation on Windows
-  - Solution: Created directories individually
+  - Solution: Created directories one by one
 - Initial system architecture
-  - Solution: Implemented core systems first
+  - Solution: Implemented modular design with clear separation of concerns
+- Movement system complexity
+  - Solution: Created separate movement and controller classes
+  - Implemented state machine for movement states
+  - Added configuration system for easy tuning
 
 ## Notes
-- Need to implement actual zombie spawning
-- UI system needs to be connected
+- Need to implement zombie spawning
+- Need to connect UI system
 - Need to add more zombie types
-- Consider adding more special events
+- Consider special events
+- Need to implement wall detection
+- Need to add movement animations
+- Consider adding movement tutorial
 
 ---
 
